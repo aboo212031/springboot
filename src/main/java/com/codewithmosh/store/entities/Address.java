@@ -34,7 +34,4 @@ public class Address {
     @ToString.Exclude
     private User user;
 
-    public void setUser(User user) {
-        this.user = user;
-    }
 }
